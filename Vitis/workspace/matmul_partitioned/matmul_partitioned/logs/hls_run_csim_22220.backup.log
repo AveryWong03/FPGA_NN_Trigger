@@ -1,0 +1,176 @@
+  **** HLS Build v2024.2 5238294
+INFO: [HLS 200-2005] Using work_dir C:/Main_Folder/School/Year_4/Capstone/vitis_testing/hls/matmul_partitioned/matmul_partitioned 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:\Users\avery\Downloads\matmul_partition.cpp' from C:/Main_Folder/School/Year_4/Capstone/vitis_testing/hls/matmul_partitioned/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/Users/avery/Downloads/matmul_partition.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:\Users\avery\Downloads\matmul_partition.h' from C:/Main_Folder/School/Year_4/Capstone/vitis_testing/hls/matmul_partitioned/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/avery/Downloads/matmul_partition.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\Users\avery\Downloads\matmul_partition_test.cpp' from C:/Main_Folder/School/Year_4/Capstone/vitis_testing/hls/matmul_partitioned/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/avery/Downloads/matmul_partition_test.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=matmul_partition' from C:/Main_Folder/School/Year_4/Capstone/vitis_testing/hls/matmul_partitioned/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Main_Folder/School/Year_4/Capstone/vitis_testing/hls/matmul_partitioned/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from C:/Main_Folder/School/Year_4/Capstone/vitis_testing/hls/matmul_partitioned/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/Main_Folder/School/Year_4/Capstone/vitis_testing/hls/matmul_partitioned/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Main_Folder/School/Year_4/Capstone/vitis_testing/hls/matmul_partitioned/hls_config.cfg(5)
+INFO: [SIM 211-200] Executing Code Analyzer instead of classic HLS C simulation
+INFO: [HLS 211-200] Compiling source code C:/Users/avery/Downloads/matmul_partition.cpp as hardware code with instrumentation
+INFO: [HLS 211-200] Compiling source code C:/Users/avery/Downloads/matmul_partition_test.cpp as test bench code with instrumentation
+INFO: [HLS 211-200] Compiling source code C:/Users/avery/Downloads/matmul_partition.cpp as test bench code with instrumentation
+INFO: [HLS 211-200] Linking hardware code
+INFO: [HLS 211-200] Transforming hardware bitcode
+INFO: [HLS 211-200] Linking executable
+INFO: [HLS 211-200] Computing HLS IR Information
+INFO: [HLS 211-200] Determining source code dependencies
+INFO: [SIM 211-200] Running executable
+A:
+   0    1    8    5    5    2    0    7    7   10 …
+   7    0    4    0    4    7    6   10    9    5 …
+   2    0    8    3    6    8   10    4    2   10 …
+   2    4    8    5    2    3    3    1    5    9 …
+  10    5    2    0   10    0    5    4    3   10 …
+   9    1    0    7    9    6    8    7   10    9 …
+   4    9    2    4    5    5    3    1    1    6 …
+   6    9    6    9    1    2    7    1    1    3 …
+   1    3    9    7    1    7    4    4    5    1 …
+  10    4    1    6    2    5    5   10    1    2 …
+--- Logging error ---
+Traceback (most recent call last):
+  File "logging\__init__.py", line 1103, in emit
+  File "D:\Vivado\Vitis\2024.2\vcxx\libexec\slxcmd.py", line 22, in write
+    res = self.stream.write(data)
+  File "encodings\cp1252.py", line 19, in encode
+UnicodeEncodeError: 'charmap' codec can't encode character '\u22f1' in position 50: character maps to <undefined>
+Call stack:
+  File "D:\Vivado\Vitis\2024.2\vcxx\libexec\slxcmd.py", line 38, in <module>
+    sys.exit(slx.main.main())
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\main.py", line 138, in main
+    return args.func(args, logger)
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\code_analyzer.py", line 572, in cmd_code_analyzer
+    common.run(
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\common.py", line 44, in run
+    return asyncio.get_event_loop().run_until_complete(coroutine)
+  File "asyncio\base_events.py", line 636, in run_until_complete
+  File "asyncio\windows_events.py", line 321, in run_forever
+  File "asyncio\base_events.py", line 603, in run_forever
+  File "asyncio\base_events.py", line 1909, in _run_once
+  File "asyncio\events.py", line 80, in _run
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\rule.py", line 954, in _async_tee
+    f(line)
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\rule.py", line 889, in log_out_as_stream_write
+    self._logger.log(SUBPROCESS_OUT, msg.rstrip("\r\n"))
+  File "logging\__init__.py", line 1879, in log
+  File "logging\__init__.py", line 1547, in log
+  File "logging\__init__.py", line 1624, in _log
+  File "logging\__init__.py", line 1634, in handle
+  File "logging\__init__.py", line 1696, in callHandlers
+  File "logging\__init__.py", line 968, in handle
+  File "logging\__init__.py", line 1108, in emit
+Message: '   …    …    …    …    …    …    …    …    …    … \u22f1'
+Arguments: ()
+
+B:
+   7    7    2    9    7    9    1    0    8    6 …
+   4    2    7    3    8    8    4    3    2    0 …
+   6    1    9    1   10    2    2    1    2    6 …
+   0    6    2    3    7    1    8    5    6    6 …
+   8    6    8    3    1    5    3    6    5    4 …
+   3    0    4    2    7    7    5    8    7   10 …
+   4    6   10    1    7    3    5    5    9    0 …
+   2    9    7    5    8    0    1    7    7    4 …
+   1    0    5    0    1    9    8    8    4    0 …
+   4    6    7    7    5    3    8    4    7    3 …
+--- Logging error ---
+Traceback (most recent call last):
+  File "logging\__init__.py", line 1103, in emit
+  File "D:\Vivado\Vitis\2024.2\vcxx\libexec\slxcmd.py", line 22, in write
+    res = self.stream.write(data)
+  File "encodings\cp1252.py", line 19, in encode
+UnicodeEncodeError: 'charmap' codec can't encode character '\u22f1' in position 50: character maps to <undefined>
+Call stack:
+  File "D:\Vivado\Vitis\2024.2\vcxx\libexec\slxcmd.py", line 38, in <module>
+    sys.exit(slx.main.main())
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\main.py", line 138, in main
+    return args.func(args, logger)
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\code_analyzer.py", line 572, in cmd_code_analyzer
+    common.run(
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\common.py", line 44, in run
+    return asyncio.get_event_loop().run_until_complete(coroutine)
+  File "asyncio\base_events.py", line 636, in run_until_complete
+  File "asyncio\windows_events.py", line 321, in run_forever
+  File "asyncio\base_events.py", line 603, in run_forever
+  File "asyncio\base_events.py", line 1909, in _run_once
+  File "asyncio\events.py", line 80, in _run
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\rule.py", line 954, in _async_tee
+    f(line)
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\rule.py", line 889, in log_out_as_stream_write
+    self._logger.log(SUBPROCESS_OUT, msg.rstrip("\r\n"))
+  File "logging\__init__.py", line 1879, in log
+  File "logging\__init__.py", line 1547, in log
+  File "logging\__init__.py", line 1624, in _log
+  File "logging\__init__.py", line 1634, in handle
+  File "logging\__init__.py", line 1696, in callHandlers
+  File "logging\__init__.py", line 968, in handle
+  File "logging\__init__.py", line 1108, in emit
+Message: '   …    …    …    …    …    …    …    …    …    … \u22f1'
+Arguments: ()
+
+Gold1:
+ 196  311  428  206  384  291  305  363  405  243 …
+ 286  472  448  296  490  425  382  430  500  367 …
+ 269  439  555  260  529  390  416  425  559  370 …
+ 231  293  419  231  365  385  361  356  384  235 …
+ 307  479  484  313  453  477  368  366  529  295 …
+ 317  474  488  357  472  458  439  457  564  341 …
+ 246  339  385  272  381  424  364  324  386  263 …
+ 234  367  312  217  430  307  334  248  314  284 …
+ 231  370  403  197  453  334  353  410  382  344 …
+ 246  432  363  321  462  324  291  330  436  322 …
+--- Logging error ---
+Traceback (most recent call last):
+  File "logging\__init__.py", line 1103, in emit
+  File "D:\Vivado\Vitis\2024.2\vcxx\libexec\slxcmd.py", line 22, in write
+    res = self.stream.write(data)
+  File "encodings\cp1252.py", line 19, in encode
+UnicodeEncodeError: 'charmap' codec can't encode character '\u22f1' in position 50: character maps to <undefined>
+Call stack:
+  File "D:\Vivado\Vitis\2024.2\vcxx\libexec\slxcmd.py", line 38, in <module>
+    sys.exit(slx.main.main())
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\main.py", line 138, in main
+    return args.func(args, logger)
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\code_analyzer.py", line 572, in cmd_code_analyzer
+    common.run(
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\common.py", line 44, in run
+    return asyncio.get_event_loop().run_until_complete(coroutine)
+  File "asyncio\base_events.py", line 636, in run_until_complete
+  File "asyncio\windows_events.py", line 321, in run_forever
+  File "asyncio\base_events.py", line 603, in run_forever
+  File "asyncio\base_events.py", line 1909, in _run_once
+  File "asyncio\events.py", line 80, in _run
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\rule.py", line 954, in _async_tee
+    f(line)
+  File "D:\Vivado\Vitis\2024.2\vcxx\python\slx\rule.py", line 889, in log_out_as_stream_write
+    self._logger.log(SUBPROCESS_OUT, msg.rstrip("\r\n"))
+  File "logging\__init__.py", line 1879, in log
+  File "logging\__init__.py", line 1547, in log
+  File "logging\__init__.py", line 1624, in _log
+  File "logging\__init__.py", line 1634, in handle
+  File "logging\__init__.py", line 1696, in callHandlers
+  File "logging\__init__.py", line 968, in handle
+  File "logging\__init__.py", line 1108, in emit
+Message: '   …    …    …    …    …    …    …    …    …    … \u22f1'
+Arguments: ()
+
+TEST PASSED
+
+INFO: [SIM 211-200] Analyzing trace data
+INFO: [SIM 211-208] Running Code Analyzer
+WARNING: [SIM 211-206] Code Analyzer does not display the impact of the partition pragma for dataflow channels (C:\Main_Folder\School\Year_4\Capstone\vitis_testing\hls\matmul_partitioned\Users\avery\Downloads\matmul_partition.cpp:33:1)
+WARNING: [SIM 211-206] Code Analyzer does not display the impact of the partition pragma for dataflow channels (C:\Main_Folder\School\Year_4\Capstone\vitis_testing\hls\matmul_partitioned\Users\avery\Downloads\matmul_partition.cpp:36:1)
+WARNING: [HLS 211-200] C:\Users\avery\Downloads\matmul_partition.cpp:67:1: Pragma 'tripcount' has been kept but may be incorrect: The maximum tripcount in the pragma (1) is less than the maximum dynamic tripcount computed for the loop (16)
+INFO: [SIM 211-210] Code Analyzer finished
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 1 seconds. Total elapsed time: 51.917 seconds; peak allocated memory: 612.965 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 58s

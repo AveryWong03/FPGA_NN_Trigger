@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/Main_Folder\\School\\Year_4\\Capstone\\vitis_testing\\hls\\matmul_partitioned\\matmul_partitioned\\matmul_partitioned.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "02/18/25 18:13:53",
+ "timestampMillis": "1739931233477",
+ "buildStep": {
+  "cmdId": "c67eaaae-96a2-4f57-9b57-5c205ecda0f2",
+  "name": "vitis-run",
+  "logFile": "C:/Main_Folder\\School\\Year_4\\Capstone\\vitis_testing\\hls\\matmul_partitioned\\matmul_partitioned\\logs\\matmul_partitioned.steps.log",
+  "commandLine": "D:/Vivado/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Main_Folder\\School\\Year_4\\Capstone\\vitis_testing\\hls\\matmul_partitioned\\hls_config.cfg --work_dir matmul_partitioned ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Main_Folder\\School\\Year_4\\Capstone\\vitis_testing\\hls\\matmul_partitioned\\hls_config.cfg",
+   "--work_dir",
+   "matmul_partitioned"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Main_Folder\\School\\Year_4\\Capstone\\vitis_testing\\hls\\matmul_partitioned"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/18/25 18:13:53",
+ "timestampMillis": "1739931233477",
+ "status": {
+  "cmdId": "c67eaaae-96a2-4f57-9b57-5c205ecda0f2",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "02/18/25 18:14:03",
+ "timestampMillis": "1739931243284",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "matmul_partition",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\avery\\Downloads\\matmul_partition.cpp",
+     "C:/Users\\avery\\Downloads\\matmul_partition.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "02/18/25 18:14:03",
+ "timestampMillis": "1739931243286",
+ "buildStep": {
+  "cmdId": "dc41b254-ae59-42ba-becf-12fac2f0a2bb",
+  "name": "",
+  "logFile": "C:/Main_Folder\\School\\Year_4\\Capstone\\vitis_testing\\hls\\matmul_partitioned\\matmul_partitioned\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Main_Folder\\School\\Year_4\\Capstone\\vitis_testing\\hls\\matmul_partitioned"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/18/25 18:14:03",
+ "timestampMillis": "1739931243287",
+ "status": {
+  "cmdId": "dc41b254-ae59-42ba-becf-12fac2f0a2bb",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/18/25 18:14:08",
+ "timestampMillis": "1739931248667",
+ "status": {
+  "cmdId": "dc41b254-ae59-42ba-becf-12fac2f0a2bb",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "02/18/25 18:14:08",
+ "timestampMillis": "1739931248935",
+ "status": {
+  "cmdId": "c67eaaae-96a2-4f57-9b57-5c205ecda0f2",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/18/25 18:14:08",
+ "timestampMillis": "1739931248935",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "02/18/25 18:14:08",
+ "timestampMillis": "1739931248936",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

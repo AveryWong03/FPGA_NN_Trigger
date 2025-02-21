@@ -1,0 +1,2 @@
+XILINX_VITIS='D:/Vivado\Vitis\2024.2'
+cmdline: 'D:\Vivado\Vitis\2024.2\bin\xcd.bat' -p 51084 -t 31bcf8c8-ee67-11ef-ad78-f44ee3d4740d

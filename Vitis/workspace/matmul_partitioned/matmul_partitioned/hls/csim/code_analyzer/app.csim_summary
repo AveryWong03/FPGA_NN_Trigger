@@ -1,0 +1,80 @@
+<ENTRY>
+{
+ "thisFile": "C:/Main_Folder\\School\\Year_4\\Capstone\\vitis_testing\\hls\\matmul_partitioned\\matmul_partitioned\\hls\\csim\\code_analyzer\\app.csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Tue Feb 18 18:14:08 2025",
+ "timestampMillis": "1739931248204",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [],
+  "toolVersion": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Feb 18 18:14:08 2025",
+ "timestampMillis": "1739931248216",
+ "buildStep": {
+  "cmdId": "33570a68-ee67-11ef-bfac-f44ee3d4740d",
+  "name": "vitis_c++",
+  "logFile": "",
+  "commandLine": "vitis_c++ code_analyzer",
+  "args": [
+   "code_analyzer"
+  ],
+  "iniFiles": [],
+  "cwd": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Feb 18 18:14:08 2025",
+ "timestampMillis": "1739931248217",
+ "status": {
+  "cmdId": "33570a68-ee67-11ef-bfac-f44ee3d4740d",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Feb 18 18:14:08 2025",
+ "timestampMillis": "1739931248546",
+ "status": {
+  "cmdId": "33570a68-ee67-11ef-bfac-f44ee3d4740d",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Feb 18 18:14:08 2025",
+ "timestampMillis": "1739931248547",
+ "report": {
+  "path": "C:\\Main_Folder\\School\\Year_4\\Capstone\\vitis_testing\\hls\\matmul_partitioned",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "VCXX_CODE_ANALYZER",
+  "cmdId": "33570a68-ee67-11ef-bfac-f44ee3d4740d"
+ }
+}
+</ENTRY>

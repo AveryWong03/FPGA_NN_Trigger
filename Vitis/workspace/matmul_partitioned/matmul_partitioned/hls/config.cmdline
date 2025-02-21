@@ -1,0 +1,3 @@
+relativeroot=C:/Main_Folder/School/Year_4/Capstone/vitis_testing/hls/matmul_partitioned
+original_argv=-c --mode hls --config C:\Main_Folder\School\Year_4\Capstone\vitis_testing\hls\matmul_partitioned\hls_config.cfg --work_dir matmul_partitioned 
+
